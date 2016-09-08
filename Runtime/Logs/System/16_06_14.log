@@ -1,0 +1,1531 @@
+[ 2016-06-14T20:34:42+08:00 ] ::1 /HyAdmin-master/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.044002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\PHP\wamp\wamp\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.004000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+
+[ 2016-06-14T20:34:43+08:00 ] ::1 /HyAdmin-master/index.php/System/HyStart/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\PHP\wamp\wamp\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `homyit_frame_setting` [ RunTime:0.0260s ]
+SQL: SELECT `key`,`value` FROM `homyit_frame_setting` WHERE `status` < 9  [ RunTime:0.0010s ]
+INFO: [ before_view ] --START--
+INFO: Run Common\Behavior\HyBeforeViewBehavior [ RunTime:0.019001s ]
+INFO: [ before_view ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001000s ]
+INFO: [ action_end ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-06-14T20:34:47+08:00 ] ::1 /HyAdmin-master/index.php/System/HyStart/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-14T20:34:50+08:00 ] ::1 /HyAdmin-master/index.php/System/HyStart/ajax?q=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\PHP\wamp\wamp\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+NOTIC: [8] Undefined variable: logStep F:\PHP\wamp\wamp\www\HyAdmin-master\Application\System\Controller\HyStartController.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `homyit_user` [ RunTime:0.1120s ]
+NOTIC: [2] Missing argument 1 for Common\Model\HyFrameModel::find(), called in F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAccountModel.class.php on line 25 and defined F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 271 行.
+NOTIC: [8] Undefined variable: options F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 272 行.
+NOTIC: [8] Undefined variable: options F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 272 行.
+SQL: SELECT `id`,`college_id`,`name`,`roles`,`user_no`,`password`,`sex`,`phone`,`qq`,`email`,`avatar_file`,`status`,`session_id`,`login_last_time`,`login_times` FROM `homyit_user` WHERE `user_no` = '123123' AND `status` = 1 LIMIT 1   [ RunTime:0.0970s ]
+SQL: UPDATE `homyit_user` SET `login_last_time`='1465907689',`login_times`='5',`session_id`='t8bm5th4910rslu2b5nalqeot2' WHERE `id` = 101155 [ RunTime:0.0390s ]
+SQL: SHOW COLUMNS FROM `homyit_frame_role` [ RunTime:0.0460s ]
+SQL: SELECT `id`,`name`,`title`,`table` FROM `homyit_frame_role` WHERE `status` = 1 AND `id` IN ('32')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `homyit_user` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `homyit_college` [ RunTime:0.0240s ]
+SQL: SELECT `name` FROM `homyit_college` WHERE `id` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `homyit_frame_access` [ RunTime:0.0070s ]
+SQL: SELECT `action_id`,`model` FROM `homyit_frame_access` WHERE ( `role_id`=32 AND `status`=1 )  [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `homyit_frame_role` WHERE ( `id`=32 AND `status`=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `action_id`,`model` FROM `homyit_frame_access` WHERE ( `role_id`=31 AND `status`=1 )  [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `homyit_frame_role` WHERE ( `id`=31 AND `status`=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `action_id`,`model` FROM `homyit_frame_access` WHERE ( `role_id`=10 AND `status`=1 )  [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `homyit_frame_role` WHERE ( `id`=10 AND `status`=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`pid`,`type`,`title`,`name`,`options` FROM `homyit_frame_action` WHERE `status`=1 AND `id` IN (100000,110000,110101,110102,110201,110202,110203,210000,210100,210102,210103,210200,210201,210203,210300,210302,210306,210600,210605,210606,220000,220102,220103,230020,220100,220200,220300,220400,120300,110300,120100,120200,110100,120000,110200,220203,220206,220207,220208,220209,220205,220301,220401,220403,230002,230017,230016,230015,230007,230006,230005,230004,230003,230202,230302,110103,110104,110105,110106,110205,110206,110207,110208,110209,110210,110211,110212,110213,110214,130000,130100,130200,130201,130202,210101,210104,210105,210106,210107,210202,210204,210205,210206,210301,210305,210604,220303,220304,220305,220402,220404,220405,220406,230100,230101,230102) ORDER BY `rank` DESC [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: var F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Common\hyframe.php 第 147 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Common\hyframe.php 第 147 行.
+NOTIC: [8] Undefined variable: var F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Common\hyframe.php 第 147 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Common\hyframe.php 第 147 行.
+NOTIC: [8] Undefined variable: var F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Common\hyframe.php 第 147 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Common\hyframe.php 第 147 行.
+NOTIC: [8] Undefined variable: var F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Common\hyframe.php 第 147 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Common\hyframe.php 第 147 行.
+SQL: SELECT `id`,`pid`,`type`,`title`,`name`,`options` FROM `homyit_frame_action` WHERE `status`=1 AND `id` IN (100000,110000,110101,110102,110201,110202,110203,210000,210100,210102,210103,210200,210201,210203,210300,210302,210306,210600,210605,210606,220000,220102,220103,230020,220100,220200,220300,220400,120300,110300,120100,120200,110100,120000,110200,220203,220206,220207,220208,220209,220205,220301,220401,220403,230002,230017,230016,230015,230007,230006,230005,230004,230003,230202,230302,110103,110104,110105,110106,110205,110206,110207,110208,110209,110210,110211,110212,110213,110214,130000,130100,130200,130201,130202,210101,210104,210105,210106,210107,210202,210204,210205,210206,210301,210305,210604,220303,220304,220305,220402,220404,220405,220406,230100,230101,230102) ORDER BY `rank` DESC [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: var F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Common\hyframe.php 第 147 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Common\hyframe.php 第 147 行.
+NOTIC: [8] Undefined variable: var F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Common\hyframe.php 第 147 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Common\hyframe.php 第 147 行.
+NOTIC: [8] Undefined variable: var F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Common\hyframe.php 第 147 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Common\hyframe.php 第 147 行.
+NOTIC: [8] Undefined variable: var F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Common\hyframe.php 第 147 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Common\hyframe.php 第 147 行.
+SQL: SELECT `id`,`pid`,`type`,`title`,`name`,`options` FROM `homyit_frame_action` WHERE `status`=1 AND `id` IN (100000,110000,110101,110102,110201,110202,110203,210000,210100,210102,210103,210200,210201,210203,210300,210302,210306,210600,210605,210606,220000,220102,220103,230020,220100,220200,220300,220400,120300,110300,120100,120200,110100,120000,110200,220203,220206,220207,220208,220209,220205,220301,220401,220403,230002,230017,230016,230015,230007,230006,230005,230004,230003,230202,230302,110103,110104,110105,110106,110205,110206,110207,110208,110209,110210,110211,110212,110213,110214,130000,130100,130200,130201,130202,210101,210104,210105,210106,210107,210202,210204,210205,210206,210301,210305,210604,220303,220304,220305,220402,220404,220405,220406,230100,230101,230102) ORDER BY `rank` DESC [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: var F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Common\hyframe.php 第 147 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Common\hyframe.php 第 147 行.
+NOTIC: [8] Undefined variable: var F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Common\hyframe.php 第 147 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Common\hyframe.php 第 147 行.
+NOTIC: [8] Undefined variable: var F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Common\hyframe.php 第 147 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Common\hyframe.php 第 147 行.
+NOTIC: [8] Undefined variable: var F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Common\hyframe.php 第 147 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Common\hyframe.php 第 147 行.
+SQL: SHOW COLUMNS FROM `homyit_frame_log` [ RunTime:0.0120s ]
+SQL: INSERT INTO `homyit_frame_log` (`user_id`,`controller`,`action`,`post`,`description`,`ip`,`create_time`) VALUES ('101155','HyStart','ajax','{\"u\":\"YbjMS\\/zzd0dmo52ApG7MRQ==8881895\",\"p\":\"TRi\\/QiNWRtjHlTGeHlpnBkfyPrEoyQh3+Cqzk5b9VqxH6IDp4yrdtyPYgXXGH29q6166728\"}',' >> 登录验证 >> <span class=\'text-success\'>成功</span>','0.0.0.0','1465907690') [ RunTime:0.0210s ]
+
+[ 2016-06-14T20:34:51+08:00 ] ::1 /HyAdmin-master/index.php/System/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\PHP\wamp\wamp\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `homyit_frame_log` [ RunTime:0.0080s ]
+SQL: SELECT `create_time` FROM `homyit_frame_log` WHERE `user_id` = 101155 AND `status` = 1 AND `controller` = 'HyStart' AND `action` = 'ajax' AND `description` LIKE '%成功%' ORDER BY id desc LIMIT 2   [ RunTime:0.0520s ]
+SQL: SHOW COLUMNS FROM `homyit_frame_notice` [ RunTime:0.0230s ]
+NOTIC: [8] Undefined index: associate F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 141 行.
+NOTIC: [8] Undefined index: order F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 162 行.
+NOTIC: [8] Undefined variable: field F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 181 行.
+NOTIC: [8] Undefined index: where F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 189 行.
+NOTIC: [8] Undefined index: decrypt F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 241 行.
+NOTIC: [8] Undefined index: scope F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 247 行.
+NOTIC: [8] Undefined index: count F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 248 行.
+NOTIC: [8] Undefined index: find F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 254 行.
+SQL: SELECT `id`,`title`,`content`,`creator_id`,`file_id`,`create_time`,`update_time`,`status` FROM `homyit_frame_notice` WHERE `status` = 1 ORDER BY id desc LIMIT 5   [ RunTime:0.0010s ]
+INFO: [ before_view ] --START--
+SQL: SHOW COLUMNS FROM `homyit_frame_alert` [ RunTime:0.0250s ]
+SQL: SELECT `id`,`category`,`icon`,`message`,`url`,`type`,`create_time` FROM `homyit_frame_alert` where `to_users` LIKE '%,101155,%' AND ( IFNULL(`read_users`,'')='' OR `read_users` NOT LIKE '%,101155,%') AND `status`=1 ORDER BY `id` DESC [ RunTime:0.1190s ]
+INFO: Run Common\Behavior\HyBeforeViewBehavior [ RunTime:0.154008s ]
+INFO: [ before_view ] --END-- [ RunTime:0.154008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.247014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.247014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001000s ]
+INFO: [ action_end ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-06-14T20:34:53+08:00 ] ::1 /HyAdmin-master/index.php/System/HyChat/ajax?q=list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\PHP\wamp\wamp\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.003001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `homyit_frame_chat` [ RunTime:0.0340s ]
+NOTIC: [8] Undefined index: pagetitle F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 403 行.
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined variable: sql F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 31 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.011000s ]
+INFO: [ hy_log ] --END-- [ RunTime:0.011000s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000000s ]
+INFO: [ hy_log ] --END-- [ RunTime:-0.001001s ]
+NOTIC: [2] Missing argument 1 for System\Model\HyChatModel::lists(), called in F:\PHP\wamp\wamp\www\HyAdmin-master\Application\System\Model\HyChatModel.class.php on line 30 and defined F:\PHP\wamp\wamp\www\HyAdmin-master\Application\System\Model\HyChatModel.class.php 第 34 行.
+NOTIC: [8] Undefined variable: offset F:\PHP\wamp\wamp\www\HyAdmin-master\Application\System\Model\HyChatModel.class.php 第 36 行.
+NOTIC: [8] Undefined index: field F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 170 行.
+NOTIC: [8] Undefined index: _string F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 189 行.
+NOTIC: [8] Undefined offset: 5 F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 220 行.
+NOTIC: [8] Undefined index: decrypt F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 241 行.
+NOTIC: [8] Undefined index: scope F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 247 行.
+NOTIC: [8] Undefined index: count F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 248 行.
+NOTIC: [8] Undefined index: find F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 254 行.
+SQL: SHOW COLUMNS FROM `homyit_frame_chat` [ RunTime:0.0090s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE hy.status = 1 ORDER BY hy.id desc LIMIT 10' at line 1
+
+[ 2016-06-14T20:34:53+08:00 ] ::1 /HyAdmin-master/index.php/System/Index/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-14T20:34:56+08:00 ] ::1 /HyAdmin-master/index.php/System/HyAlert/all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\PHP\wamp\wamp\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `homyit_frame_alert` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: pagetitle F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 403 行.
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined variable: sql F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 31 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001000s ]
+INFO: [ hy_log ] --END-- [ RunTime:0.001000s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001000s ]
+INFO: [ hy_log ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: pagetitle F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 403 行.
+NOTIC: [8] Undefined index: all F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 911 行.
+NOTIC: [8] Undefined index: tips F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 444 行.
+NOTIC: [8] Undefined index: search F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 423 行.
+NOTIC: [8] Undefined index: form F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 425 行.
+NOTIC: [8] Undefined index: options F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 423 行.
+NOTIC: [8] Undefined index: form F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 425 行.
+NOTIC: [8] Undefined index: form F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 425 行.
+NOTIC: [8] Undefined index: title F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 421 行.
+NOTIC: [8] Undefined index: form F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 421 行.
+NOTIC: [8] Undefined index: search F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 423 行.
+NOTIC: [8] Undefined index: form F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 425 行.
+NOTIC: [8] Undefined index: form F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 425 行.
+NOTIC: [8] Undefined index: search F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 423 行.
+NOTIC: [8] Undefined index: form F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 425 行.
+NOTIC: [8] Undefined index: title F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 420 行.
+NOTIC: [8] Undefined index: title F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 421 行.
+NOTIC: [8] Undefined index: form F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 421 行.
+NOTIC: [8] Undefined index: search F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 423 行.
+NOTIC: [8] Undefined index: form F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 425 行.
+INFO: [ before_view ] --START--
+SQL: SHOW COLUMNS FROM `homyit_frame_alert` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`category`,`icon`,`message`,`url`,`type`,`create_time` FROM `homyit_frame_alert` where `to_users` LIKE '%,101155,%' AND ( IFNULL(`read_users`,'')='' OR `read_users` NOT LIKE '%,101155,%') AND `status`=1 ORDER BY `id` DESC [ RunTime:0.0010s ]
+INFO: Run Common\Behavior\HyBeforeViewBehavior [ RunTime:0.015001s ]
+INFO: [ before_view ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: _middle F:\PHP\wamp\wamp\www\HyAdmin-master\Runtime\Cache\System\9c07dc003a2105c82c74ba68c02f614c.php 第 225 行.
+NOTIC: [8] Undefined variable: _bottom F:\PHP\wamp\wamp\www\HyAdmin-master\Runtime\Cache\System\9c07dc003a2105c82c74ba68c02f614c.php 第 244 行.
+NOTIC: [8] Undefined variable: _script F:\PHP\wamp\wamp\www\HyAdmin-master\Runtime\Cache\System\9c07dc003a2105c82c74ba68c02f614c.php 第 303 行.
+NOTIC: [8] Undefined variable: hyMenu F:\PHP\wamp\wamp\www\HyAdmin-master\Runtime\Cache\System\9c07dc003a2105c82c74ba68c02f614c.php 第 316 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-06-14T20:34:57+08:00 ] ::1 /HyAdmin-master/index.php/System/HyAlert/ajax?q=list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\PHP\wamp\wamp\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.004000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `homyit_frame_alert` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: pagetitle F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 403 行.
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined variable: sql F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 31 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001000s ]
+INFO: [ hy_log ] --END-- [ RunTime:0.001000s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001000s ]
+INFO: [ hy_log ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: limit F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 160 行.
+NOTIC: [8] Undefined index: order F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 162 行.
+NOTIC: [8] Undefined index: field F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 170 行.
+NOTIC: [8] Undefined index: where F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 189 行.
+NOTIC: [8] Undefined offset: 5 F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 220 行.
+NOTIC: [8] Undefined index: decrypt F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 241 行.
+SQL: SHOW COLUMNS FROM `homyit_frame_alert` [ RunTime:0.0090s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ( to_users LIKE '%,101155,%' ) AND hy.status = 1' at line 1
+
+[ 2016-06-14T20:34:58+08:00 ] ::1 /HyAdmin-master/index.php/System/HyAlert/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-06-14T20:35:00+08:00 ] ::1 /HyAdmin-master/index.php/System/Inbox/all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\PHP\wamp\wamp\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'homyit_hyframe.homyit_inbox' doesn't exist
+
+[ 2016-06-14T20:35:03+08:00 ] ::1 /HyAdmin-master/index.php/System/HyAlert/ajax?q=list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\PHP\wamp\wamp\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.003001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `homyit_frame_alert` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: pagetitle F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 403 行.
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined variable: sql F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 31 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001000s ]
+INFO: [ hy_log ] --END-- [ RunTime:0.001000s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000000s ]
+INFO: [ hy_log ] --END-- [ RunTime:-0.001000s ]
+NOTIC: [8] Undefined index: limit F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 160 行.
+NOTIC: [8] Undefined index: order F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 162 行.
+NOTIC: [8] Undefined index: field F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 170 行.
+NOTIC: [8] Undefined index: where F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 189 行.
+NOTIC: [8] Undefined offset: 5 F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 220 行.
+NOTIC: [8] Undefined index: decrypt F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 241 行.
+SQL: SHOW COLUMNS FROM `homyit_frame_alert` [ RunTime:0.0080s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ( to_users LIKE '%,101155,%' ) AND hy.status = 1' at line 1
+
+[ 2016-06-14T20:35:07+08:00 ] ::1 /HyAdmin-master/index.php/System/HyAlert/ajax?q=list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\PHP\wamp\wamp\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `homyit_frame_alert` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: pagetitle F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 403 行.
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined variable: sql F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 31 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000000s ]
+INFO: [ hy_log ] --END-- [ RunTime:0.001000s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000000s ]
+INFO: [ hy_log ] --END-- [ RunTime:-0.001000s ]
+NOTIC: [8] Undefined index: limit F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 160 行.
+NOTIC: [8] Undefined index: order F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 162 行.
+NOTIC: [8] Undefined index: field F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 170 行.
+NOTIC: [8] Undefined index: where F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 189 行.
+NOTIC: [8] Undefined offset: 5 F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 220 行.
+NOTIC: [8] Undefined index: decrypt F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 241 行.
+SQL: SHOW COLUMNS FROM `homyit_frame_alert` [ RunTime:0.0090s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ( to_users LIKE '%,101155,%' ) AND hy.status = 1' at line 1
+
+[ 2016-06-14T20:35:10+08:00 ] ::1 /HyAdmin-master/index.php/System/HyFeedback/ajax/q/detail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\PHP\wamp\wamp\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: System/HyFeedback/all F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAuthModel.class.php 第 91 行.
+NOTIC: [8] Undefined index: model F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'homyit_hyframe.homyit_hy_feedback' doesn't exist
+
+[ 2016-06-14T20:35:12+08:00 ] ::1 /HyAdmin-master/index.php/System/HyAlert/ajax?q=list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\PHP\wamp\wamp\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `homyit_frame_alert` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: pagetitle F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 403 行.
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined variable: sql F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 31 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000000s ]
+INFO: [ hy_log ] --END-- [ RunTime:0.000000s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001000s ]
+INFO: [ hy_log ] --END-- [ RunTime:-0.001000s ]
+NOTIC: [8] Undefined index: limit F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 160 行.
+NOTIC: [8] Undefined index: order F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 162 行.
+NOTIC: [8] Undefined index: field F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 170 行.
+NOTIC: [8] Undefined index: where F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 189 行.
+NOTIC: [8] Undefined offset: 5 F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 220 行.
+NOTIC: [8] Undefined index: decrypt F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 241 行.
+SQL: SHOW COLUMNS FROM `homyit_frame_alert` [ RunTime:0.0080s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ( to_users LIKE '%,101155,%' ) AND hy.status = 1' at line 1
+
+[ 2016-06-14T20:35:35+08:00 ] ::1 /HyAdmin-master/index.php/System/HyNotice/all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\PHP\wamp\wamp\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `homyit_frame_notice` [ RunTime:0.0270s ]
+NOTIC: [8] Undefined index: pagetitle F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 403 行.
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined variable: sql F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 31 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000000s ]
+INFO: [ hy_log ] --END-- [ RunTime:0.001000s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001000s ]
+INFO: [ hy_log ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: pagetitle F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 403 行.
+NOTIC: [8] Undefined index: all F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 911 行.
+NOTIC: [8] Undefined index: tips F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 444 行.
+NOTIC: [8] Undefined index: type F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 423 行.
+NOTIC: [8] Undefined index: search F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 423 行.
+NOTIC: [8] Undefined index: search F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 423 行.
+NOTIC: [8] Undefined index: type F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 425 行.
+NOTIC: [8] Undefined index: search F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 423 行.
+NOTIC: [8] Undefined index: type F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 425 行.
+NOTIC: [8] Undefined index: title F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 420 行.
+NOTIC: [8] Undefined index: list F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 420 行.
+NOTIC: [8] Undefined index: title F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 421 行.
+NOTIC: [8] Undefined index: title F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 421 行.
+NOTIC: [8] Undefined index: search F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 423 行.
+NOTIC: [8] Undefined index: form F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 425 行.
+INFO: [ before_view ] --START--
+SQL: SHOW COLUMNS FROM `homyit_frame_alert` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`category`,`icon`,`message`,`url`,`type`,`create_time` FROM `homyit_frame_alert` where `to_users` LIKE '%,101155,%' AND ( IFNULL(`read_users`,'')='' OR `read_users` NOT LIKE '%,101155,%') AND `status`=1 ORDER BY `id` DESC [ RunTime:0.0010s ]
+INFO: Run Common\Behavior\HyBeforeViewBehavior [ RunTime:0.017001s ]
+INFO: [ before_view ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: _middle F:\PHP\wamp\wamp\www\HyAdmin-master\Runtime\Cache\System\9c07dc003a2105c82c74ba68c02f614c.php 第 225 行.
+NOTIC: [8] Undefined variable: _bottom F:\PHP\wamp\wamp\www\HyAdmin-master\Runtime\Cache\System\9c07dc003a2105c82c74ba68c02f614c.php 第 244 行.
+NOTIC: [8] Undefined variable: _script F:\PHP\wamp\wamp\www\HyAdmin-master\Runtime\Cache\System\9c07dc003a2105c82c74ba68c02f614c.php 第 303 行.
+NOTIC: [8] Undefined variable: hyMenu F:\PHP\wamp\wamp\www\HyAdmin-master\Runtime\Cache\System\9c07dc003a2105c82c74ba68c02f614c.php 第 316 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-06-14T20:35:36+08:00 ] ::1 /HyAdmin-master/index.php/System/HyNotice/ajax?q=list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\PHP\wamp\wamp\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `homyit_frame_notice` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: pagetitle F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 403 行.
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined variable: sql F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 31 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000000s ]
+INFO: [ hy_log ] --END-- [ RunTime:0.001000s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001000s ]
+INFO: [ hy_log ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: associate F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 141 行.
+NOTIC: [8] Undefined index: associate F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 141 行.
+NOTIC: [8] Undefined index: limit F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 160 行.
+NOTIC: [8] Undefined index: order F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 162 行.
+NOTIC: [8] Undefined variable: field F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 181 行.
+NOTIC: [8] Undefined index: where F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 189 行.
+NOTIC: [8] Undefined index: decrypt F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 241 行.
+SQL: SELECT 1 FROM `homyit_frame_notice` WHERE `status` = 1  [ RunTime:0.0010s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000000s ]
+INFO: [ hy_log ] --END-- [ RunTime:-0.007001s ]
+NOTIC: [8] Undefined index: hy F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 140 行.
+NOTIC: [8] Undefined index: associate F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 141 行.
+SQL: SELECT `id`,`title`,`content`,`creator_id`,`file_id`,`create_time`,`update_time`,`status` FROM `homyit_frame_notice` WHERE `status` = 1 ORDER BY id desc LIMIT 10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: hidden F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 587 行.
+NOTIC: [8] Undefined index: hidden F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 587 行.
+NOTIC: [8] Undefined index: hidden F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 587 行.
+NOTIC: [8] Undefined index: hidden F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 587 行.
+NOTIC: [8] Undefined index: title F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 587 行.
+NOTIC: [8] Undefined index: {callback} F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 796 行.
+NOTIC: [8] Undefined index: callback F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 597 行.
+NOTIC: [8] Undefined index: {callback} F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 796 行.
+NOTIC: [8] Undefined index: {callback} F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 796 行.
+NOTIC: [8] Undefined index: {callback} F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 796 行.
+NOTIC: [8] Undefined index: list F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 597 行.
+NOTIC: [8] Undefined index: {callback} F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 796 行.
+NOTIC: [8] Undefined index: callback F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 597 行.
+NOTIC: [8] Undefined index: {callback} F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 796 行.
+NOTIC: [8] Undefined index: {callback} F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 796 行.
+NOTIC: [8] Undefined index: {callback} F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 796 行.
+NOTIC: [8] Undefined index: list F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 597 行.
+NOTIC: [8] Undefined index: info F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 462 行.
+INFO: [ hy_log ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000000s ]
+INFO: [ hy_log ] --END-- [ RunTime:-0.024002s ]
+
+[ 2016-06-14T20:35:36+08:00 ] ::1 /HyAdmin-master/index.php/System/HyNotice/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-14T20:35:40+08:00 ] ::1 /HyAdmin-master/index.php/System/HyNotice/ajax?q=detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\PHP\wamp\wamp\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.004001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.005001s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `homyit_frame_notice` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: pagetitle F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 403 行.
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined variable: sql F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 31 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001000s ]
+INFO: [ hy_log ] --END-- [ RunTime:0.001000s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000000s ]
+INFO: [ hy_log ] --END-- [ RunTime:-0.001000s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000000s ]
+INFO: [ hy_log ] --END-- [ RunTime:-0.003001s ]
+NOTIC: [2] Illegal string offset 'associate' F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 141 行.
+NOTIC: [8] Undefined index: hy F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 140 行.
+NOTIC: [8] Undefined index: associate F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 141 行.
+SQL: SELECT * FROM `homyit_frame_notice` WHERE `id` = 34  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: tpl F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Controller\HyAllController.class.php 第 91 行.
+INFO: [ before_view ] --START--
+SQL: SHOW COLUMNS FROM `homyit_frame_alert` [ RunTime:0.0140s ]
+SQL: SELECT `id`,`category`,`icon`,`message`,`url`,`type`,`create_time` FROM `homyit_frame_alert` where `to_users` LIKE '%,101155,%' AND ( IFNULL(`read_users`,'')='' OR `read_users` NOT LIKE '%,101155,%') AND `status`=1 ORDER BY `id` DESC [ RunTime:0.0020s ]
+INFO: Run Common\Behavior\HyBeforeViewBehavior [ RunTime:0.026002s ]
+INFO: [ before_view ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: cols F:\PHP\wamp\wamp\www\HyAdmin-master\Runtime\Cache\System\c6d80dac29f4bb3371a39f454a43cf44.php 第 13 行.
+NOTIC: [8] Undefined index: cols F:\PHP\wamp\wamp\www\HyAdmin-master\Runtime\Cache\System\c6d80dac29f4bb3371a39f454a43cf44.php 第 13 行.
+NOTIC: [8] Undefined index: cols F:\PHP\wamp\wamp\www\HyAdmin-master\Runtime\Cache\System\c6d80dac29f4bb3371a39f454a43cf44.php 第 13 行.
+NOTIC: [8] Undefined index: json F:\PHP\wamp\wamp\www\HyAdmin-master\Runtime\Cache\System\c6d80dac29f4bb3371a39f454a43cf44.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-14T20:35:53+08:00 ] ::1 /HyAdmin-master/index.php/System/HyStart/System.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\PHP\wamp\wamp\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.002001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+ERR: 非法操作:System
+
+[ 2016-06-14T20:35:55+08:00 ] ::1 /HyAdmin-master/index.php/System/HyNotice/ajax?q=list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\PHP\wamp\wamp\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `homyit_frame_notice` [ RunTime:0.0300s ]
+NOTIC: [8] Undefined index: pagetitle F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 403 行.
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined variable: sql F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 31 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001000s ]
+INFO: [ hy_log ] --END-- [ RunTime:0.001000s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000000s ]
+INFO: [ hy_log ] --END-- [ RunTime:-0.001000s ]
+NOTIC: [8] Undefined index: associate F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 141 行.
+NOTIC: [8] Undefined index: associate F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 141 行.
+NOTIC: [8] Undefined index: limit F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 160 行.
+NOTIC: [8] Undefined index: order F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 162 行.
+NOTIC: [8] Undefined variable: field F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 181 行.
+NOTIC: [8] Undefined index: where F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 189 行.
+NOTIC: [8] Undefined index: decrypt F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 241 行.
+SQL: SELECT 1 FROM `homyit_frame_notice` WHERE `status` = 1  [ RunTime:0.0010s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001000s ]
+INFO: [ hy_log ] --END-- [ RunTime:-0.006000s ]
+NOTIC: [8] Undefined index: hy F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 140 行.
+NOTIC: [8] Undefined index: associate F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 141 行.
+SQL: SELECT `id`,`title`,`content`,`creator_id`,`file_id`,`create_time`,`update_time`,`status` FROM `homyit_frame_notice` WHERE `status` = 1 ORDER BY id desc LIMIT 10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: hidden F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 587 行.
+NOTIC: [8] Undefined index: hidden F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 587 行.
+NOTIC: [8] Undefined index: hidden F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 587 行.
+NOTIC: [8] Undefined index: hidden F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 587 行.
+NOTIC: [8] Undefined index: title F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 587 行.
+NOTIC: [8] Undefined index: {callback} F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 796 行.
+NOTIC: [8] Undefined index: callback F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 597 行.
+NOTIC: [8] Undefined index: {callback} F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 796 行.
+NOTIC: [8] Undefined index: {callback} F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 796 行.
+NOTIC: [8] Undefined index: {callback} F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 796 行.
+NOTIC: [8] Undefined index: list F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 597 行.
+NOTIC: [8] Undefined index: {callback} F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 796 行.
+NOTIC: [8] Undefined index: callback F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 597 行.
+NOTIC: [8] Undefined index: {callback} F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 796 行.
+NOTIC: [8] Undefined index: {callback} F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 796 行.
+NOTIC: [8] Undefined index: {callback} F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 796 行.
+NOTIC: [8] Undefined index: list F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 597 行.
+NOTIC: [8] Undefined index: info F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 462 行.
+INFO: [ hy_log ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001000s ]
+INFO: [ hy_log ] --END-- [ RunTime:-0.024001s ]
+
+[ 2016-06-14T20:36:40+08:00 ] ::1 /HyAdmin-master/index.php/System/HyNotice/ajax?q=list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\PHP\wamp\wamp\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `homyit_frame_notice` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: pagetitle F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 403 行.
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined variable: sql F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 31 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001000s ]
+INFO: [ hy_log ] --END-- [ RunTime:0.001000s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001000s ]
+INFO: [ hy_log ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: associate F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 141 行.
+NOTIC: [8] Undefined index: associate F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 141 行.
+NOTIC: [8] Undefined index: limit F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 160 行.
+NOTIC: [8] Undefined index: order F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 162 行.
+NOTIC: [8] Undefined variable: field F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 181 行.
+NOTIC: [8] Undefined index: where F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 189 行.
+NOTIC: [8] Undefined index: decrypt F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 241 行.
+SQL: SELECT 1 FROM `homyit_frame_notice` WHERE `status` = 1  [ RunTime:0.0010s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000000s ]
+INFO: [ hy_log ] --END-- [ RunTime:-0.005000s ]
+NOTIC: [8] Undefined index: hy F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 140 行.
+NOTIC: [8] Undefined index: associate F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 141 行.
+SQL: SELECT `id`,`title`,`content`,`creator_id`,`file_id`,`create_time`,`update_time`,`status` FROM `homyit_frame_notice` WHERE `status` = 1 ORDER BY id desc LIMIT 10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: hidden F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 587 行.
+NOTIC: [8] Undefined index: hidden F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 587 行.
+NOTIC: [8] Undefined index: hidden F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 587 行.
+NOTIC: [8] Undefined index: hidden F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 587 行.
+NOTIC: [8] Undefined index: title F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 587 行.
+NOTIC: [8] Undefined index: {callback} F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 796 行.
+NOTIC: [8] Undefined index: callback F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 597 行.
+NOTIC: [8] Undefined index: {callback} F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 796 行.
+NOTIC: [8] Undefined index: {callback} F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 796 行.
+NOTIC: [8] Undefined index: {callback} F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 796 行.
+NOTIC: [8] Undefined index: list F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 597 行.
+NOTIC: [8] Undefined index: {callback} F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 796 行.
+NOTIC: [8] Undefined index: callback F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 597 行.
+NOTIC: [8] Undefined index: {callback} F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 796 行.
+NOTIC: [8] Undefined index: {callback} F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 796 行.
+NOTIC: [8] Undefined index: {callback} F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 796 行.
+NOTIC: [8] Undefined index: list F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 597 行.
+NOTIC: [8] Undefined index: info F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 462 行.
+INFO: [ hy_log ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000000s ]
+INFO: [ hy_log ] --END-- [ RunTime:-0.024001s ]
+
+[ 2016-06-14T20:37:43+08:00 ] ::1 /HyAdmin-master/index.php/System/HyStart/online?keepTry=RZsSlDzEqucL6gRvKVhDvPHPitpcntkHfpP1viEM1ak%3D3440553
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\PHP\wamp\wamp\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+
+[ 2016-06-14T20:38:43+08:00 ] ::1 /HyAdmin-master/index.php/System/HyStart/online?keepTry=lL6RJtyTrlztnmD6tCZ8qAEt9nbmhVIDhsYmj3FkxD4%3D4365190
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\PHP\wamp\wamp\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+
+[ 2016-06-14T20:39:23+08:00 ] ::1 /HyAdmin-master/index.php/System/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\PHP\wamp\wamp\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.003001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `homyit_frame_log` [ RunTime:0.0080s ]
+SQL: SELECT `create_time` FROM `homyit_frame_log` WHERE `user_id` = 101155 AND `status` = 1 AND `controller` = 'HyStart' AND `action` = 'ajax' AND `description` LIKE '%成功%' ORDER BY id desc LIMIT 2   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `homyit_frame_notice` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: associate F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 141 行.
+NOTIC: [8] Undefined index: order F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 162 行.
+NOTIC: [8] Undefined variable: field F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 181 行.
+NOTIC: [8] Undefined index: where F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 189 行.
+NOTIC: [8] Undefined index: decrypt F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 241 行.
+NOTIC: [8] Undefined index: scope F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 247 行.
+NOTIC: [8] Undefined index: count F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 248 行.
+NOTIC: [8] Undefined index: find F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 254 行.
+SQL: SELECT `id`,`title`,`content`,`creator_id`,`file_id`,`create_time`,`update_time`,`status` FROM `homyit_frame_notice` WHERE `status` = 1 ORDER BY id desc LIMIT 5   [ RunTime:0.0010s ]
+INFO: [ before_view ] --START--
+SQL: SHOW COLUMNS FROM `homyit_frame_alert` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`category`,`icon`,`message`,`url`,`type`,`create_time` FROM `homyit_frame_alert` where `to_users` LIKE '%,101155,%' AND ( IFNULL(`read_users`,'')='' OR `read_users` NOT LIKE '%,101155,%') AND `status`=1 ORDER BY `id` DESC [ RunTime:0.0010s ]
+INFO: Run Common\Behavior\HyBeforeViewBehavior [ RunTime:0.017001s ]
+INFO: [ before_view ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.116006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.117006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000000s ]
+INFO: [ action_end ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-06-14T20:39:23+08:00 ] ::1 /HyAdmin-master/index.php/System/HyChat/ajax?q=list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\PHP\wamp\wamp\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `homyit_frame_chat` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: pagetitle F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 403 行.
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined variable: sql F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 31 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000000s ]
+INFO: [ hy_log ] --END-- [ RunTime:0.001000s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001000s ]
+INFO: [ hy_log ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for System\Model\HyChatModel::lists(), called in F:\PHP\wamp\wamp\www\HyAdmin-master\Application\System\Model\HyChatModel.class.php on line 30 and defined F:\PHP\wamp\wamp\www\HyAdmin-master\Application\System\Model\HyChatModel.class.php 第 34 行.
+NOTIC: [8] Undefined variable: offset F:\PHP\wamp\wamp\www\HyAdmin-master\Application\System\Model\HyChatModel.class.php 第 36 行.
+NOTIC: [8] Undefined index: field F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 170 行.
+NOTIC: [8] Undefined index: _string F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 189 行.
+NOTIC: [8] Undefined offset: 5 F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 220 行.
+NOTIC: [8] Undefined index: decrypt F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 241 行.
+NOTIC: [8] Undefined index: scope F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 247 行.
+NOTIC: [8] Undefined index: count F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 248 行.
+NOTIC: [8] Undefined index: find F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 254 行.
+SQL: SHOW COLUMNS FROM `homyit_frame_chat` [ RunTime:0.0080s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE hy.status = 1 ORDER BY hy.id desc LIMIT 10' at line 1
+
+[ 2016-06-14T20:40:23+08:00 ] ::1 /HyAdmin-master/index.php/System/HyStart/online?keepTry=pYY1qBlsWLH7%2BaZJphclkG%2Bh1A0BKuA%2BybMbZtoArBc%3D3764383
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\PHP\wamp\wamp\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+
+[ 2016-06-14T20:40:35+08:00 ] ::1 /HyAdmin-master/index.php/System/HyStart/System.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\PHP\wamp\wamp\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+ERR: 非法操作:System
+
+[ 2016-06-14T20:40:37+08:00 ] ::1 /HyAdmin-master/index.php/System/HyChat/ajax?q=list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\PHP\wamp\wamp\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `homyit_frame_chat` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: pagetitle F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 403 行.
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined variable: sql F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 31 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001000s ]
+INFO: [ hy_log ] --END-- [ RunTime:0.001000s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000000s ]
+INFO: [ hy_log ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for System\Model\HyChatModel::lists(), called in F:\PHP\wamp\wamp\www\HyAdmin-master\Application\System\Model\HyChatModel.class.php on line 30 and defined F:\PHP\wamp\wamp\www\HyAdmin-master\Application\System\Model\HyChatModel.class.php 第 34 行.
+NOTIC: [8] Undefined variable: offset F:\PHP\wamp\wamp\www\HyAdmin-master\Application\System\Model\HyChatModel.class.php 第 36 行.
+NOTIC: [8] Undefined index: field F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 170 行.
+NOTIC: [8] Undefined index: _string F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 189 行.
+NOTIC: [8] Undefined offset: 5 F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 220 行.
+NOTIC: [8] Undefined index: decrypt F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 241 行.
+NOTIC: [8] Undefined index: scope F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 247 行.
+NOTIC: [8] Undefined index: count F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 248 行.
+NOTIC: [8] Undefined index: find F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 254 行.
+SQL: SHOW COLUMNS FROM `homyit_frame_chat` [ RunTime:0.0090s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE hy.status = 1 ORDER BY hy.id desc LIMIT 10' at line 1
+
+[ 2016-06-14T20:41:08+08:00 ] ::1 /HyAdmin-master/index.php/System/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\PHP\wamp\wamp\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `homyit_frame_log` [ RunTime:0.0090s ]
+SQL: SELECT `create_time` FROM `homyit_frame_log` WHERE `user_id` = 101155 AND `status` = 1 AND `controller` = 'HyStart' AND `action` = 'ajax' AND `description` LIKE '%成功%' ORDER BY id desc LIMIT 2   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `homyit_frame_notice` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: associate F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 141 行.
+NOTIC: [8] Undefined index: order F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 162 行.
+NOTIC: [8] Undefined variable: field F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 181 行.
+NOTIC: [8] Undefined index: where F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 189 行.
+NOTIC: [8] Undefined index: decrypt F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 241 行.
+NOTIC: [8] Undefined index: scope F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 247 行.
+NOTIC: [8] Undefined index: count F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 248 行.
+NOTIC: [8] Undefined index: find F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 254 行.
+SQL: SELECT `id`,`title`,`content`,`creator_id`,`file_id`,`create_time`,`update_time`,`status` FROM `homyit_frame_notice` WHERE `status` = 1 ORDER BY id desc LIMIT 5   [ RunTime:0.0010s ]
+INFO: [ before_view ] --START--
+SQL: SHOW COLUMNS FROM `homyit_frame_alert` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`category`,`icon`,`message`,`url`,`type`,`create_time` FROM `homyit_frame_alert` where `to_users` LIKE '%,101155,%' AND ( IFNULL(`read_users`,'')='' OR `read_users` NOT LIKE '%,101155,%') AND `status`=1 ORDER BY `id` DESC [ RunTime:0.0010s ]
+INFO: Run Common\Behavior\HyBeforeViewBehavior [ RunTime:0.020001s ]
+INFO: [ before_view ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.127008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.127008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001000s ]
+INFO: [ action_end ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007000s ]
+
+[ 2016-06-14T20:41:09+08:00 ] ::1 /HyAdmin-master/index.php/System/HyChat/ajax?q=list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\PHP\wamp\wamp\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `homyit_frame_chat` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: pagetitle F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 403 行.
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined variable: sql F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 31 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000000s ]
+INFO: [ hy_log ] --END-- [ RunTime:0.002000s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001000s ]
+INFO: [ hy_log ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for System\Model\HyChatModel::lists(), called in F:\PHP\wamp\wamp\www\HyAdmin-master\Application\System\Model\HyChatModel.class.php on line 30 and defined F:\PHP\wamp\wamp\www\HyAdmin-master\Application\System\Model\HyChatModel.class.php 第 34 行.
+NOTIC: [8] Undefined variable: offset F:\PHP\wamp\wamp\www\HyAdmin-master\Application\System\Model\HyChatModel.class.php 第 36 行.
+NOTIC: [8] Undefined index: field F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 170 行.
+NOTIC: [8] Undefined index: _string F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 189 行.
+NOTIC: [8] Undefined offset: 5 F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 220 行.
+NOTIC: [8] Undefined index: decrypt F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 241 行.
+NOTIC: [8] Undefined index: scope F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 247 行.
+NOTIC: [8] Undefined index: count F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 248 行.
+NOTIC: [8] Undefined index: find F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 254 行.
+SQL: SHOW COLUMNS FROM `homyit_frame_chat` [ RunTime:0.0090s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE hy.status = 1 ORDER BY hy.id desc LIMIT 10' at line 1
+
+[ 2016-06-14T20:41:10+08:00 ] ::1 /HyAdmin-master/index.php/System/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\PHP\wamp\wamp\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.002001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `homyit_frame_log` [ RunTime:0.0090s ]
+SQL: SELECT `create_time` FROM `homyit_frame_log` WHERE `user_id` = 101155 AND `status` = 1 AND `controller` = 'HyStart' AND `action` = 'ajax' AND `description` LIKE '%成功%' ORDER BY id desc LIMIT 2   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `homyit_frame_notice` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: associate F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 141 行.
+NOTIC: [8] Undefined index: order F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 162 行.
+NOTIC: [8] Undefined variable: field F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 181 行.
+NOTIC: [8] Undefined index: where F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 189 行.
+NOTIC: [8] Undefined index: decrypt F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 241 行.
+NOTIC: [8] Undefined index: scope F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 247 行.
+NOTIC: [8] Undefined index: count F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 248 行.
+NOTIC: [8] Undefined index: find F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 254 行.
+SQL: SELECT `id`,`title`,`content`,`creator_id`,`file_id`,`create_time`,`update_time`,`status` FROM `homyit_frame_notice` WHERE `status` = 1 ORDER BY id desc LIMIT 5   [ RunTime:0.0010s ]
+INFO: [ before_view ] --START--
+SQL: SHOW COLUMNS FROM `homyit_frame_alert` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`category`,`icon`,`message`,`url`,`type`,`create_time` FROM `homyit_frame_alert` where `to_users` LIKE '%,101155,%' AND ( IFNULL(`read_users`,'')='' OR `read_users` NOT LIKE '%,101155,%') AND `status`=1 ORDER BY `id` DESC [ RunTime:0.0010s ]
+INFO: Run Common\Behavior\HyBeforeViewBehavior [ RunTime:0.019002s ]
+INFO: [ before_view ] --END-- [ RunTime:0.021002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.282016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.282016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000000s ]
+INFO: [ action_end ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-06-14T20:41:11+08:00 ] ::1 /HyAdmin-master/index.php/System/HyChat/ajax?q=list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\PHP\wamp\wamp\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `homyit_frame_chat` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: pagetitle F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 403 行.
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined variable: sql F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 31 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000000s ]
+INFO: [ hy_log ] --END-- [ RunTime:0.001000s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001000s ]
+INFO: [ hy_log ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for System\Model\HyChatModel::lists(), called in F:\PHP\wamp\wamp\www\HyAdmin-master\Application\System\Model\HyChatModel.class.php on line 30 and defined F:\PHP\wamp\wamp\www\HyAdmin-master\Application\System\Model\HyChatModel.class.php 第 34 行.
+NOTIC: [8] Undefined variable: offset F:\PHP\wamp\wamp\www\HyAdmin-master\Application\System\Model\HyChatModel.class.php 第 36 行.
+NOTIC: [8] Undefined index: field F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 170 行.
+NOTIC: [8] Undefined index: _string F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 189 行.
+NOTIC: [8] Undefined offset: 5 F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 220 行.
+NOTIC: [8] Undefined index: decrypt F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 241 行.
+NOTIC: [8] Undefined index: scope F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 247 行.
+NOTIC: [8] Undefined index: count F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 248 行.
+NOTIC: [8] Undefined index: find F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 254 行.
+SQL: SHOW COLUMNS FROM `homyit_frame_chat` [ RunTime:0.0070s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE hy.status = 1 ORDER BY hy.id desc LIMIT 10' at line 1
+
+[ 2016-06-14T20:41:11+08:00 ] ::1 /HyAdmin-master/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\PHP\wamp\wamp\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `homyit_frame_log` [ RunTime:0.0060s ]
+SQL: SELECT `create_time` FROM `homyit_frame_log` WHERE `user_id` = 101155 AND `status` = 1 AND `controller` = 'HyStart' AND `action` = 'ajax' AND `description` LIKE '%成功%' ORDER BY id desc LIMIT 2   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `homyit_frame_notice` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: associate F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 141 行.
+NOTIC: [8] Undefined index: order F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 162 行.
+NOTIC: [8] Undefined variable: field F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 181 行.
+NOTIC: [8] Undefined index: where F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 189 行.
+NOTIC: [8] Undefined index: decrypt F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 241 行.
+NOTIC: [8] Undefined index: scope F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 247 行.
+NOTIC: [8] Undefined index: count F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 248 行.
+NOTIC: [8] Undefined index: find F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 254 行.
+SQL: SELECT `id`,`title`,`content`,`creator_id`,`file_id`,`create_time`,`update_time`,`status` FROM `homyit_frame_notice` WHERE `status` = 1 ORDER BY id desc LIMIT 5   [ RunTime:0.0010s ]
+INFO: [ before_view ] --START--
+SQL: SHOW COLUMNS FROM `homyit_frame_alert` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`category`,`icon`,`message`,`url`,`type`,`create_time` FROM `homyit_frame_alert` where `to_users` LIKE '%,101155,%' AND ( IFNULL(`read_users`,'')='' OR `read_users` NOT LIKE '%,101155,%') AND `status`=1 ORDER BY `id` DESC [ RunTime:0.0010s ]
+INFO: Run Common\Behavior\HyBeforeViewBehavior [ RunTime:0.013001s ]
+INFO: [ before_view ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000000s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-14T20:41:12+08:00 ] ::1 /HyAdmin-master/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\PHP\wamp\wamp\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.002001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `homyit_frame_log` [ RunTime:0.0090s ]
+SQL: SELECT `create_time` FROM `homyit_frame_log` WHERE `user_id` = 101155 AND `status` = 1 AND `controller` = 'HyStart' AND `action` = 'ajax' AND `description` LIKE '%成功%' ORDER BY id desc LIMIT 2   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `homyit_frame_notice` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: associate F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 141 行.
+NOTIC: [8] Undefined index: order F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 162 行.
+NOTIC: [8] Undefined variable: field F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 181 行.
+NOTIC: [8] Undefined index: where F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 189 行.
+NOTIC: [8] Undefined index: decrypt F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 241 行.
+NOTIC: [8] Undefined index: scope F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 247 行.
+NOTIC: [8] Undefined index: count F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 248 行.
+NOTIC: [8] Undefined index: find F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 254 行.
+SQL: SELECT `id`,`title`,`content`,`creator_id`,`file_id`,`create_time`,`update_time`,`status` FROM `homyit_frame_notice` WHERE `status` = 1 ORDER BY id desc LIMIT 5   [ RunTime:0.0010s ]
+INFO: [ before_view ] --START--
+SQL: SHOW COLUMNS FROM `homyit_frame_alert` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`category`,`icon`,`message`,`url`,`type`,`create_time` FROM `homyit_frame_alert` where `to_users` LIKE '%,101155,%' AND ( IFNULL(`read_users`,'')='' OR `read_users` NOT LIKE '%,101155,%') AND `status`=1 ORDER BY `id` DESC [ RunTime:0.0020s ]
+INFO: Run Common\Behavior\HyBeforeViewBehavior [ RunTime:0.018001s ]
+INFO: [ before_view ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.133008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.133008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000000s ]
+INFO: [ action_end ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-06-14T20:41:13+08:00 ] ::1 /HyAdmin-master/index.php/System/HyChat/ajax?q=list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\PHP\wamp\wamp\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `homyit_frame_chat` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: pagetitle F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 403 行.
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined variable: sql F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 31 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001000s ]
+INFO: [ hy_log ] --END-- [ RunTime:0.001000s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000000s ]
+INFO: [ hy_log ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for System\Model\HyChatModel::lists(), called in F:\PHP\wamp\wamp\www\HyAdmin-master\Application\System\Model\HyChatModel.class.php on line 30 and defined F:\PHP\wamp\wamp\www\HyAdmin-master\Application\System\Model\HyChatModel.class.php 第 34 行.
+NOTIC: [8] Undefined variable: offset F:\PHP\wamp\wamp\www\HyAdmin-master\Application\System\Model\HyChatModel.class.php 第 36 行.
+NOTIC: [8] Undefined index: field F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 170 行.
+NOTIC: [8] Undefined index: _string F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 189 行.
+NOTIC: [8] Undefined offset: 5 F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 220 行.
+NOTIC: [8] Undefined index: decrypt F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 241 行.
+NOTIC: [8] Undefined index: scope F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 247 行.
+NOTIC: [8] Undefined index: count F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 248 行.
+NOTIC: [8] Undefined index: find F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 254 行.
+SQL: SHOW COLUMNS FROM `homyit_frame_chat` [ RunTime:0.0080s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE hy.status = 1 ORDER BY hy.id desc LIMIT 10' at line 1
+
+[ 2016-06-14T20:42:13+08:00 ] ::1 /HyAdmin-master/index.php/System/HyStart/online?keepTry=qFh5c4ieiZ2JtnAShR4ope%2BccD6gIiOvmMwJbdVkhrk%3D4949220
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\PHP\wamp\wamp\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+
+[ 2016-06-14T20:43:08+08:00 ] ::1 /HyAdmin-master/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\PHP\wamp\wamp\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `homyit_frame_log` [ RunTime:0.0100s ]
+SQL: SELECT `create_time` FROM `homyit_frame_log` WHERE `user_id` = 101155 AND `status` = 1 AND `controller` = 'HyStart' AND `action` = 'ajax' AND `description` LIKE '%成功%' ORDER BY id desc LIMIT 2   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `homyit_frame_notice` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: associate F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 141 行.
+NOTIC: [8] Undefined index: order F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 162 行.
+NOTIC: [8] Undefined variable: field F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 181 行.
+NOTIC: [8] Undefined index: where F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 189 行.
+NOTIC: [8] Undefined index: decrypt F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 241 行.
+NOTIC: [8] Undefined index: scope F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 247 行.
+NOTIC: [8] Undefined index: count F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 248 行.
+NOTIC: [8] Undefined index: find F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 254 行.
+SQL: SELECT `id`,`title`,`content`,`creator_id`,`file_id`,`create_time`,`update_time`,`status` FROM `homyit_frame_notice` WHERE `status` = 1 ORDER BY id desc LIMIT 5   [ RunTime:0.0010s ]
+INFO: [ before_view ] --START--
+SQL: SHOW COLUMNS FROM `homyit_frame_alert` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`category`,`icon`,`message`,`url`,`type`,`create_time` FROM `homyit_frame_alert` where `to_users` LIKE '%,101155,%' AND ( IFNULL(`read_users`,'')='' OR `read_users` NOT LIKE '%,101155,%') AND `status`=1 ORDER BY `id` DESC [ RunTime:0.0010s ]
+INFO: Run Common\Behavior\HyBeforeViewBehavior [ RunTime:0.020001s ]
+INFO: [ before_view ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.124007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.124007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001000s ]
+INFO: [ action_end ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-06-14T20:43:09+08:00 ] ::1 /HyAdmin-master/index.php/System/HyChat/ajax?q=list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\PHP\wamp\wamp\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `homyit_frame_chat` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: pagetitle F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 403 行.
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined variable: sql F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 31 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000000s ]
+INFO: [ hy_log ] --END-- [ RunTime:0.001000s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000000s ]
+INFO: [ hy_log ] --END-- [ RunTime:-0.001000s ]
+NOTIC: [2] Missing argument 1 for System\Model\HyChatModel::lists(), called in F:\PHP\wamp\wamp\www\HyAdmin-master\Application\System\Model\HyChatModel.class.php on line 30 and defined F:\PHP\wamp\wamp\www\HyAdmin-master\Application\System\Model\HyChatModel.class.php 第 34 行.
+NOTIC: [8] Undefined variable: offset F:\PHP\wamp\wamp\www\HyAdmin-master\Application\System\Model\HyChatModel.class.php 第 36 行.
+NOTIC: [8] Undefined index: field F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 170 行.
+NOTIC: [8] Undefined index: _string F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 189 行.
+NOTIC: [8] Undefined offset: 5 F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 220 行.
+NOTIC: [8] Undefined index: decrypt F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 241 行.
+NOTIC: [8] Undefined index: scope F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 247 行.
+NOTIC: [8] Undefined index: count F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 248 行.
+NOTIC: [8] Undefined index: find F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 254 行.
+SQL: SHOW COLUMNS FROM `homyit_frame_chat` [ RunTime:0.0120s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE hy.status = 1 ORDER BY hy.id desc LIMIT 10' at line 1
+
+[ 2016-06-14T20:44:09+08:00 ] ::1 /HyAdmin-master/index.php/System/HyStart/online?keepTry=75l7yZmN%2BBI28yggB7V5%2Boq1H2vhgFRu7dWvzTUvkYE%3D6926980
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\PHP\wamp\wamp\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+
+[ 2016-06-14T20:45:09+08:00 ] ::1 /HyAdmin-master/index.php/System/HyStart/online?keepTry=LdFlB%2Ff%2B4VxJ7zBQH06ikJiYn9f0aDou0DkWfjyYnWs%3D4552840
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\PHP\wamp\wamp\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+
+[ 2016-06-14T20:45:27+08:00 ] ::1 /HyAdmin-master/index.php/System/HyChat/ajax?q=list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\PHP\wamp\wamp\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `homyit_frame_chat` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: pagetitle F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 403 行.
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined variable: sql F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 31 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000000s ]
+INFO: [ hy_log ] --END-- [ RunTime:0.001000s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001000s ]
+INFO: [ hy_log ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for System\Model\HyChatModel::lists(), called in F:\PHP\wamp\wamp\www\HyAdmin-master\Application\System\Model\HyChatModel.class.php on line 30 and defined F:\PHP\wamp\wamp\www\HyAdmin-master\Application\System\Model\HyChatModel.class.php 第 34 行.
+NOTIC: [8] Undefined variable: offset F:\PHP\wamp\wamp\www\HyAdmin-master\Application\System\Model\HyChatModel.class.php 第 36 行.
+NOTIC: [8] Undefined index: field F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 170 行.
+NOTIC: [8] Undefined index: _string F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 189 行.
+NOTIC: [8] Undefined offset: 5 F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 220 行.
+NOTIC: [8] Undefined index: decrypt F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 241 行.
+NOTIC: [8] Undefined index: scope F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 247 行.
+NOTIC: [8] Undefined index: count F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 248 行.
+NOTIC: [8] Undefined index: find F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 254 行.
+SQL: SHOW COLUMNS FROM `homyit_frame_chat` [ RunTime:0.0100s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE hy.status = 1 ORDER BY hy.id desc LIMIT 10' at line 1
+
+[ 2016-06-14T20:45:29+08:00 ] ::1 /HyAdmin-master/index.php/System/User/profile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\PHP\wamp\wamp\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+
+[ 2016-06-14T20:45:31+08:00 ] ::1 /HyAdmin-master/index.php/System/HyChat/ajax?q=list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\PHP\wamp\wamp\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `homyit_frame_chat` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: pagetitle F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 403 行.
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined variable: sql F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 31 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000000s ]
+INFO: [ hy_log ] --END-- [ RunTime:0.001000s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000000s ]
+INFO: [ hy_log ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for System\Model\HyChatModel::lists(), called in F:\PHP\wamp\wamp\www\HyAdmin-master\Application\System\Model\HyChatModel.class.php on line 30 and defined F:\PHP\wamp\wamp\www\HyAdmin-master\Application\System\Model\HyChatModel.class.php 第 34 行.
+NOTIC: [8] Undefined variable: offset F:\PHP\wamp\wamp\www\HyAdmin-master\Application\System\Model\HyChatModel.class.php 第 36 行.
+NOTIC: [8] Undefined index: field F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 170 行.
+NOTIC: [8] Undefined index: _string F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 189 行.
+NOTIC: [8] Undefined offset: 5 F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 220 行.
+NOTIC: [8] Undefined index: decrypt F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 241 行.
+NOTIC: [8] Undefined index: scope F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 247 行.
+NOTIC: [8] Undefined index: count F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 248 行.
+NOTIC: [8] Undefined index: find F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 254 行.
+SQL: SHOW COLUMNS FROM `homyit_frame_chat` [ RunTime:0.0080s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE hy.status = 1 ORDER BY hy.id desc LIMIT 10' at line 1
+
+[ 2016-06-14T20:45:34+08:00 ] ::1 /HyAdmin-master/index.php/System/HyChat/ajax?q=list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\PHP\wamp\wamp\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `homyit_frame_chat` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: pagetitle F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyAllModel.class.php 第 403 行.
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined variable: sql F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 31 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001000s ]
+INFO: [ hy_log ] --END-- [ RunTime:0.001000s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001000s ]
+INFO: [ hy_log ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for System\Model\HyChatModel::lists(), called in F:\PHP\wamp\wamp\www\HyAdmin-master\Application\System\Model\HyChatModel.class.php on line 30 and defined F:\PHP\wamp\wamp\www\HyAdmin-master\Application\System\Model\HyChatModel.class.php 第 34 行.
+NOTIC: [8] Undefined variable: offset F:\PHP\wamp\wamp\www\HyAdmin-master\Application\System\Model\HyChatModel.class.php 第 36 行.
+NOTIC: [8] Undefined index: field F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 170 行.
+NOTIC: [8] Undefined index: _string F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 189 行.
+NOTIC: [8] Undefined offset: 5 F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 220 行.
+NOTIC: [8] Undefined index: decrypt F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 241 行.
+NOTIC: [8] Undefined index: scope F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 247 行.
+NOTIC: [8] Undefined index: count F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 248 行.
+NOTIC: [8] Undefined index: find F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 254 行.
+SQL: SHOW COLUMNS FROM `homyit_frame_chat` [ RunTime:0.0110s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE hy.status = 1 ORDER BY hy.id desc LIMIT 10' at line 1
+
+[ 2016-06-14T20:46:34+08:00 ] ::1 /HyAdmin-master/index.php/System/HyStart/online?keepTry=lxLhtwXRcCCKXCw%2B56qzytgyWZhQ2al9lPmPE1hr9Ck%3D4991391
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\PHP\wamp\wamp\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+
+[ 2016-06-14T20:47:34+08:00 ] ::1 /HyAdmin-master/index.php/System/HyStart/online?keepTry=tPKGrKePejONy9XyFdN2QoDzpMfTbcWd4z9svDJ2VYo%3D6688617
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\PHP\wamp\wamp\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+
+[ 2016-06-14T20:48:34+08:00 ] ::1 /HyAdmin-master/index.php/System/HyStart/online?keepTry=6y9pQjtkB3OrQ2t2b%2BV18UvIGn9e6UlMt1YpfD6C7Ms%3D4541749
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\PHP\wamp\wamp\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+
+[ 2016-06-14T20:49:34+08:00 ] ::1 /HyAdmin-master/index.php/System/HyStart/online?keepTry=SZRkreNRsl%2Bl11kxzQDYx4w0u%2BUarck3HblYhW3zmC8%3D3810209
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\PHP\wamp\wamp\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+
+[ 2016-06-14T20:50:34+08:00 ] ::1 /HyAdmin-master/index.php/System/HyStart/online?keepTry=XlgbAUAw6vfmhkVdPFB%2FmE618650KOVPOOxAelyYI3o%3D2534144
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\PHP\wamp\wamp\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.003001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model F:\PHP\wamp\wamp\www\HyAdmin-master\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+
