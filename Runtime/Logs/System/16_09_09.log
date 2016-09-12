@@ -1,0 +1,151 @@
+[ 2016-09-09T10:15:41+08:00 ] ::1 /HyAdmin-master/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.472027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:1.404080s ]
+INFO: [ app_begin ] --END-- [ RunTime:1.407081s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\PHP\wamp64\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:1.487085s ]
+INFO: [ action_begin ] --END-- [ RunTime:1.488085s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) F:\PHP\wamp64\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+
+[ 2016-09-09T10:15:41+08:00 ] ::1 /HyAdmin-master/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.058003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:1.337076s ]
+INFO: [ app_begin ] --END-- [ RunTime:1.338076s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\PHP\wamp64\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:1.486085s ]
+INFO: [ action_begin ] --END-- [ RunTime:1.487085s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) F:\PHP\wamp64\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+
+[ 2016-09-09T10:15:58+08:00 ] ::1 /HyAdmin-master/index.php/System/HyStart/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\PHP\wamp64\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) F:\PHP\wamp64\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model F:\PHP\wamp64\www\HyAdmin-master\Application\Common\Controller\HyFrameController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `homyit_frame_setting` [ RunTime:1.9221s ]
+SQL: SELECT `key`,`value` FROM `homyit_frame_setting` WHERE `status` < 9  [ RunTime:1.2611s ]
+INFO: [ before_view ] --START--
+INFO: Run Common\Behavior\HyBeforeViewBehavior [ RunTime:0.421024s ]
+INFO: [ before_view ] --END-- [ RunTime:0.421024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.155009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.155009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001000s ]
+INFO: [ action_end ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-09-09T18:58:41+08:00 ] ::1 /HyAdmin-master/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\PHP\wamp64\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2] mysql_connect(): ����Ŀ����������ܾ����޷����ӡ�
+ F:\PHP\wamp64\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2] mysql_select_db() expects parameter 2 to be resource, boolean given F:\PHP\wamp64\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 98 行.
+NOTIC: [8] Undefined offset: 1 F:\PHP\wamp64\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 124 行.
+NOTIC: [2] mysql_query() expects parameter 2 to be resource, null given F:\PHP\wamp64\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 125 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.004001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) F:\PHP\wamp64\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+
+[ 2016-09-09T18:58:46+08:00 ] ::1 /HyAdmin-master/index.php/System/HyStart/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\PHP\wamp64\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2] mysql_connect(): ����Ŀ����������ܾ����޷����ӡ�
+ F:\PHP\wamp64\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2] mysql_select_db() expects parameter 2 to be resource, boolean given F:\PHP\wamp64\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 98 行.
+NOTIC: [8] Undefined offset: 1 F:\PHP\wamp64\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 124 行.
+NOTIC: [2] mysql_query() expects parameter 2 to be resource, null given F:\PHP\wamp64\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 125 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) F:\PHP\wamp64\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model F:\PHP\wamp64\www\HyAdmin-master\Application\Common\Controller\HyFrameController.class.php 第 43 行.
+ERR: SQLSTATE[HY000] [2002] ����Ŀ�����������ܾ����޷����ӡ�
+
+
+[ 2016-09-09T19:22:49+08:00 ] ::1 /HyAdmin-master/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\PHP\wamp64\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.004000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) F:\PHP\wamp64\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+
+[ 2016-09-09T19:22:50+08:00 ] ::1 /HyAdmin-master/index.php/System/HyStart/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\PHP\wamp64\www\HyAdmin-master\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) F:\PHP\wamp64\www\HyAdmin-master\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model F:\PHP\wamp64\www\HyAdmin-master\Application\Common\Controller\HyFrameController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `homyit_frame_setting` [ RunTime:0.1480s ]
+SQL: SELECT `key`,`value` FROM `homyit_frame_setting` WHERE `status` < 9  [ RunTime:0.0010s ]
+INFO: [ before_view ] --START--
+INFO: Run Common\Behavior\HyBeforeViewBehavior [ RunTime:0.031001s ]
+INFO: [ before_view ] --END-- [ RunTime:0.031001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000000s ]
+INFO: [ action_end ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-09-09T19:22:52+08:00 ] ::1 /HyAdmin-master/index.php/System/HyStart/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+

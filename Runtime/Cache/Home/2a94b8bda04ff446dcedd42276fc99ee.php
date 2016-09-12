@@ -8,6 +8,10 @@
 
 	<link rel="stylesheet" href="/HyAdmin-master/Public/assets/global/plugins/bootstrap/css/bootstrap.min.css" type="text/css">
 	<style>
+	 	@font-face{
+		    font-family: 'Pacifico';
+		   src: url(/HyAdmin-master/Public/assets/global/fonts/Pacifico.ttf)format('truetype');
+		 }
 		body{
 			font-family: "微软雅黑";
 		}
@@ -15,20 +19,26 @@
 		#nav_top{
 			position: fixed;
 			width:100%;
-			height:80px;
 			z-index:100;
-			background-color:rgba(34,34,34,0);
-			transition:all .35s;
+			background-color:transparent;
+			padding:8px 0;
+			height:90px;
+			transition:all .28s cubic-bezier(0.4,0,0.2,1);
+			border-bottom:1.5px solid #fff;
+			font-family: "幼圆";
 		}
 		.navbar,#collapse,#collapse ul,#collapse ul li{
 			height: 100% !important;
 			position: relative;
 		}
-
-		.nav a{
-			font-size: 20px;
-			top:10px;
+		
+		a.navbar-brand{
+			font-family:'Pacifico';
+			font-size:2em;
+			transform: translateY(8px);
+			color:#FF9966!important;
 		}
+
 		#nav_form{
 			position: relative;
 			top:10px;
@@ -43,6 +53,8 @@
 		}
 		#footer{
 			height:130px;
+			color:#fffff0;
+			background-color:rgba(55,63,72,1);
 			
 		}
 		#footer table{
@@ -56,201 +68,99 @@
 			border:transparent;
 			background-color:transparent;
 		}
+
 		.nav li a{
-			color:#fff!important;
+			font-size: 20px;
+			top:10px;
+			color:#666666!important;
+			font-weight: bold;
+			transition: all .5s;
 		}
-		.show_color{
-			background-color: rgba(34,34,34,1)!important;
+		.nav li:hover a{
+			color:#3399FF!important;
 		}
+
+		.change_size{
+			background-color: rgba(255,255,255,1)!important;
+			padding:3px 0!important;
+			height: 70px!important;
+			border-bottom:1.5px solid transparent;
+
+		}
+		#collapse .pull-right li{
+			margin:0 10px;
+			transition:all .5s;
+		}
+
+		#collapse .pull-right a{
+			display: block;
+		}
+
+		#collapse .pull-right li:hover a{
+			color:#FF9933!important;
+		}
+
+		
+
+
+
+		@media screen and (max-width: 800px) {
+		    #nav_top{
+		    	background-color:rgba(255,255,255,1) ;
+		    }
+		    #collapse{
+		    	min-height: 150px;
+		    	background-color: #fff;
+		    }
+		}
+
+		
 		
 	</style>
 
 	
+	<link rel="stylesheet" type="text/css" href="/HyAdmin-master/Public/assets/global/styles/index/index.css"/>
+	<link rel="stylesheet" type="text/css" href="/HyAdmin-master/Public/assets/global/styles/index/animate.min.css">
 	<style>
-	/* ---------------top_carousel begin-------------------- */
-		#top_carousel{
-			width: 100%;
-			height:600px;
-		}
-		#slidershow{
-			width: 100%;
-			height: 100%;
-		}
-		#slidershow a img{
+		.pre_meal,.pre_household,.pre_clean,.pre_reason{
 			width:100%;
-			height:600px;
-		}
-		
-		#meal{
-			margin-bottom: 100px;
-		}
-
-		#meal .row{
-			margin:0 auto;
-			width:70%;
-			height:260px;
-			
-		}
-		#meal .row .col-md-4{
-			height: 100%;
-		}
-		#meal .row:nth-child(odd) .col-md-4:nth-child(even) {
-			background-color: #555;
-		}
-
-		#meal .row:nth-child(even) .col-md-4:nth-child(odd){
-			background-color: #555;
-		}
-		.title{
-			text-align: center;
-			padding:40px 0;
-			font-size:40px;
-		}
-		#more{
-			display: block;
-			text-decoration: none;
-			color:#222;
-			font-size:16px;
-			padding-right:30px;
-
-			transform: translateY(20px);
-		}
-	/* ---------------top_carousel end-------------------- */
-
-	/* ---------------household begin-------------------- */
-		#household{
+			height:180px;
 			position: relative;
-			width:100%;
-			min-height:600px;
-			background-color:#FFCC99;
-		}
-		#houseTool{
-			width:4800px;
-			padding:0;
-			margin:0;
-			height: 100%;
-			transition:all .5s;
-		}
-		.house_content{
-			position: relative;
-			height:600px;
-		}
-		
-		.house_prev,.house_next{
-			position:absolute;	
-			font-size:40px;
-			width: 8%;
-			height: 100%;
-		}
-		.house_prev{
-			left:0;
-		}
-		.house_next{		
-			right:0;
 		}
 
-		.house_prev a,.house_next a{
-			display: block;
-			height:100%;
-			text-decoration: none;
-			
-		}
-		.house_prev span,.house_next span{
-			display: block;
-			top:50%;
-			color:rgba(188,208,195,1);
+		.pre_meal h2,.pre_household h2,.pre_clean h2,.pre_reason h2{
+			position: relative;
+			top:44%;
+			font-size:30px;
 			text-align: center;
 		}
-
-		.house_carousel{
-			position: absolute;
-			width:84%;
-			height:100%;
-			left:8%;
-			background-color: #ddd;
-			overflow: hidden;
-			
-		}
-	
-		.tool{
-			position: relative;
-			display: inline-block;
-			list-style:none;
-			width:400px;
-			height:100%;
-			background-color: #FFCC33;
-		}
-
-		.tool img{
-			width:80%;
-			height: 350px;
-			margin:0 auto;
-			display: block;
-			vertical-align: middle;
-		}
-		.img_name{
-		
-			text-align: center;
-		}
-
-		.tool_box{
-			position: relative;
-			top:18%;
-		}
-	/* ---------------household end-------------------- */	
-
-	/*---------------clean begin--------------------*/
-		#clean{
-			position: relative;
-			width:100%;
+		.pre_meal{
 			background-color:rgba(247,249,250,1);
-			height: 550px;
+			padding-top:30px;
+		}
+		.pre_meal h2{
+			top:20%;
+			color:#3399FF;
+		}
+
+		.pre_household{
+			background-color: #FF9933;
+			color:#fff;
+			height: 200px;
+			margin:-23px 0;
+		}
+
+
+		.pre_reason{
+			background-color: #66CCFF;
+			color:#fff;
+			height: 200px;
+			margin:-23px 0;
+		}
+
+		.pre_clean{
 			margin-top:-20px;
 		}
-
-		.clean_example{
-			width:84%;
-			margin:0 auto;
-		}
-		.all_clean{
-			position: relative;
-			
-			padding:0;
-			margin:0;
-		} 
-		.all_clean li{
-			list-style:none;
-			position: absolute;
-			display: block;
-			float: left;
-		}
-
-		.clean_menu_bar{
-			padding:0;
-			margin: 0;
-			height: 100%;
-		}
-		.clean_title{
-			list-style:none;
-			display: block;
-			font-size: 22px;
-			height:50px;
-			line-height: 50px;
-			color:#666666;
-			transition:all .5s;
-			cursor: pointer;
-			text-align: center;
-		}
-		
-		.clean_img{
-			width: 530px;
-			height: 320px;
-		}
-		.all_clean li{
-			transition: all .5s;
-		}
-		
-	/*---------------clean end----------------------*/
 	</style>
 
 </head>
@@ -258,6 +168,11 @@
 	<div id="nav_top">
 		<div class="navbar navbar-default" role="navigation">
 			<div class="navbar-header">
+
+			    <a href="##" class="navbar-brand">    
+			    Coming<i style="color:#3399FF;">H</i>ome
+                </a>
+
 				<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-responsive-collapse">
 					<span class="sr-only">Toggle Navigation</span>
 					<span class="icon-bar"></span>
@@ -274,94 +189,120 @@
 		      		<li><a href="##">居家用具</a></li>
 				</ul>
 
-				<form action="##" id="nav_form" class="navbar-form navbar-right" rol="search">
-			   	    <div class="form-group">
-				   	    <div class="input-group">
-				   		   <input type="text" class="form-control" placeholder="请输入关键词" />
-				   		   <span class="input-group-btn">
-				   		   		<button type="button" class="btn btn-default">搜索</button>
-				   		   </span>
-				   	    </div>
-			   		</div>
- 				</form>
+				<ul class="nav navbar-nav pull-right">
+					<li><a href="##">登录</a></li>
+					<li class="slip_register"><a href="##">注册</a></li>
+				</ul>
 			</div>
 		</div>
 	</div>
 	
 	<div id="main">
 		
-	<section id="top_carousel">
-		<div id="slidershow" class="carousel slide">
-			<!-- 设置图片轮播顺序 -->
-			<ol class="carousel-indicators">
-				<li class="active" data-target="#slidershow" data-slide-to="0"></li>
-				<li data-target="#slidershow" data-slide-to="1"></li>
-				<li data-target="#slidershow" data-slide-to="2"></li>
-			</ol>
-			<!-- 设置轮播图片 -->
-			<div class="carousel-inner">
-				<div class="item active">
-					<a href="##">
-						<img src="/HyAdmin-master/Public/assets/global/img/index/1.jpg" alt="">
-					</a>
-					<div class="carousel-caption">
-						<h3>标题</h3>
-						<p>内容</p>
-					</div>
-				</div>
-				
-				<div class="item">
-					<a href="##">
-						<img src="/HyAdmin-master/Public/assets/global/img/index/2.jpg" alt="">
-					</a>
-					<div class="carousel-caption">
-							<h3>标题</h3>
-							<p>内容</p>
-					</div>
-				</div>
-				
-				<div class="item">
-					<a href="##">
-						<img src="/HyAdmin-master/Public/assets/global/img/index/3.jpg" alt="">
-					</a>
-					<div class="carousel-caption">
-							<h3>标题</h3>
-							<p>内容</p>
-					</div>
+	
+	<section id="theme">
+		<div class="ad">
+			<h2 ><span>Comming <i>H</i>ome</span> 让你居家生活没烦恼</h2>
+			<h3>为你提供各类实用居家小贴士，让你生活更美好。</h3>
+		</div>
+		
+		
+		<div class="mask"></div>
+		
+		
+		
+		<div class="search">
+			<form action="" class="form-inline" method="get">
+					<input type="text" class="form-control" id="searchBox" placeholder="搜索你想要了解的内容。">
+					<div class="searchBtn">
+				    	<button type="submit">Search</button>
+				    </div>
+			</form>
+		</div>
+	</section>
+	
+	<section class="pre_meal">
+		<h2>你还在为做菜感到烦恼吗？</h2>
+	</section>
+	
+	<section id="meal">
+		<div class="section_title">
+			<h2 class="title">
+				我们为你提供各色菜系做法。
+			</h2>
+			<div class="section_more">
+				<a id="more" class="pull-right" href="javascript:;">更多</a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<img class="meal_img" src="/HyAdmin-master/Public/assets/global/img/index/meal/china.png" alt="">
+			</div>
+			<div class="col-md-4 meal_content">
+				<div class="sub_meal_content">
+					<h3>西餐</h3>
+					<ul class="meal_thing">
+						<li><a href="#">黑椒牛扒</a></li>
+						<li><a href="#">黑椒牛扒</a></li>
+						<li><a href="#">黑椒牛扒</a></li>
+						<li><a href="#">黑椒牛扒</a></li>
+						<li><a href="#">黑椒牛扒</a></li>
+									
+					</ul>
 				</div>
 			</div>
 
-			<a href="#slidershow" class="left carousel-control">
-				<span class="glyphicon glyphicon-chevron-left"></span>
-			</a>
-			<a href="#slidershow" class="right carousel-control">
-				<span class="glyphicon glyphicon-chevron-right"></span>
-			</a>
+			<div class="col-md-4">
+				<img class="meal_img" src="/HyAdmin-master/Public/assets/global/img/index/meal/japan.png" alt="">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4 meal_content">
+				<div class="sub_meal_content">
+				<h3>中餐</h3>
+					<ul class="meal_thing">
+						<li><a href="#">黑椒牛扒</a></li>
+						<li><a href="#">黑椒牛扒</a></li>
+						<li><a href="#">黑椒牛扒</a></li>
+						<li><a href="#">黑椒牛扒</a></li>
+						<li><a href="#">黑椒牛扒</a></li>
+						
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<img class="meal_img" src="/HyAdmin-master/Public/assets/global/img/index/meal/western.png" alt="">
+			</div>
+			<div class="col-md-4 meal_content">
+				<div class="sub_meal_content">
+				<h3>日料</h3>
+					<ul class="meal_thing">
+						<li><a href="#">黑椒牛扒</a></li>
+						<li><a href="#">黑椒牛扒</a></li>
+						<li><a href="#">黑椒牛扒</a></li>
+						<li><a href="#">黑椒牛扒</a></li>
+						<li><a href="#">黑椒牛扒</a></li>
+						
+					</ul>
+				</div>
+			</div>
 		</div>
 	</section>
-
-	<section id="meal">
-		<h2 class="title">
-			菜谱大全
-			<a id="more" class="pull-right" href="javascript:;">更多</a>
-		</h2>
-		<div class="row">
-			<div class="col-md-4"></div>
-			<div class="col-md-4"></div>
-			<div class="col-md-4"></div>
-		</div>
-		<div class="row">
-			<div class="col-md-4"></div>
-			<div class="col-md-4"></div>
-			<div class="col-md-4"></div>
-		</div>
+	
+	<section class="pre_household">
+		<h2>想找省钱实用不占地的小家具？</h2>
 	</section>
 
 	<section id="household">
-			<h2 class="title">
-				实用家具
-				<a id="more" class="pull-right" href="javascript:;">更多</a>
-			</h2>
+			<div class="house_mask"></div>
+			<div class="section_title">
+				<h2 class="title">
+					为你提供精心挑选的实用家居指南
+				</h2>
+				<div class="section_more">
+					<a id="more" class="pull-right" href="javascript:;">更多</a>
+				</div>
+			</div>
 			<div class="house_content">
 				<div class="house_prev">
 					<a href="javascript:;">
@@ -380,12 +321,21 @@
 				</div>
 			</div>
 	</section>
+
+	<section class="pre_clean">
+		<h2>被脏兮兮的厕所死角折腾到崩溃？没事，我们来解救</h2>
+	</section>
 	
 	<section id="clean">
-		<h2 class="title">
-			清洁技巧
-			<a id="more" class="pull-right" href="javascript:;">更多</a>
-		</h2>
+		
+		<div class="section_title">
+			<h2 class="title">
+				最实用清洁小窍门，让室内清洁无死角！
+			</h2>
+			<div class="section_more">
+				<a id="more" class="pull-right" href="javascript:;">更多</a>
+			</div>
+		</div>
 	
 		<div class="clean_example row">
 			<div class="clean_content col-md-10">
@@ -451,8 +401,88 @@
 		</div>
 	</section>
 	
-	<section id="reason">
+	<section class="pre_reason">
+		<h2>为什么选择我们？</h2>
+	</section>
+
+	<section id="reason">	
+			<div class="sub_reason newest">
+				<div class="row">
+					<div class="col-md-4 wow fadeInLeft" data-wow-duration="2.5s">
+						<img class="" src="/HyAdmin-master/Public/assets/global/img/index/reason/newest.png"    alt="">
+					</div>
+					<div class="col-md-8 wow fadeInRight" data-wow-duration="3s">
+						<h3>最新资讯</h3>
+						<p >
+							搜罗最新实用家居小常识，让你第一时间了解做菜、清洁的时的细节与误区，让你立马打造一个不一样的家。
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="sub_reason trust">
+				<div class="row">
+					<div class="col-md-8 wow fadeInUp" data-wow-duration="3s">
+						<h3>权威数据</h3>
+						<p>
+							搜罗最新实用家居小常识，让你第一时间了解做菜、清洁的时的细节与误区，让你立马打造一个不一样的家。
+						</p>
+					</div>
+					
+					<div class="col-md-4 wow fadeInUp" data-wow-duration="2.5s">
+						<img   src="/HyAdmin-master/Public/assets/global/img/index/reason/trust.png" alt="">
+					</div>
+				</div>
+			</div>
+
+			<div class="sub_reason privilege">
+				<div class="row">
+					<div class="col-md-4 wow fadeInLeft" data-wow-duration="2.5s">
+						<img   src="/HyAdmin-master/Public/assets/global/img/index/reason/privilege.png" alt="">
+					</div>
+
+					<div class="col-md-8 wow fadeInRight" data-wow-duration="3s">
+						<h3>会员特权</h3>
+						<p>
+							搜罗最新实用家居小常识，让你第一时间了解做菜、清洁的时的细节与误区，让你立马打造一个不一样的家。
+						</p>
+					</div>
+				</div>
+			</div>
+	</section>
+
+	<section id="joinUs">
+		<div class="join_mask"></div>
 		
+
+		<div class="register wow flipInY" data-wow-duration="2s">
+			<div class="section_title">
+				<h2 class="title">
+					加入我们
+				</h2>
+			</div>
+			<form action="#" id="doRegister" class="register_form" method="post">
+				<div class="input_wrapper">
+					<label for="email" class="input_label">邮箱</label>
+					<input id="email" type="text" name="email"/>
+					<span class="md-input-bar"></span>
+				</div>
+
+				<div class="input_wrapper">
+					<label for="username" class="input_label">昵称</label>
+					<input id="username" type="text" name="username"/>
+					<span class="md-input-bar"></span>
+				</div>
+
+				<div class="input_wrapper">
+					<label for="password" class="input_label">密码</label>
+					<input id="password" type="text" name="password"/>
+					<span class="md-input-bar"></span>
+				</div>
+				
+				<button class="btn btn-info" type="submit">提交</button> 
+			</form>
+		</div>
 	</section>
 
 	</div>
@@ -475,61 +505,66 @@
 <script src="/HyAdmin-master/Public/assets/global/plugins/jquery.min.js" type="text/javascript"></script>
 <script src="/HyAdmin-master/Public/assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
 
+<script type="text/javascript">
+	$(function(){
+		var navTop =(function(){
+				var nav = $("#nav_top");
+				var scroll_end = 0;
+				var isTop = true;
+				var slipRegister = $(".slip_register");
+				var body = $("html,body");
+
+				return {
+					changeSize:function(){
+						// console.log(isTop);
+		                nav.mouseover(function(){
+		                   if(!isTop){
+		                        return;
+		                   }
+		                    nav.addClass('change_size');
+		                })
+
+		                nav.mouseout(function(){
+		                   if(!isTop){
+		                        return;
+		                   }
+		                    nav.removeClass('change_size');
+		                })
+		                     
+		                $(window).scroll(function(){
+		                     scroll_end = $(document).scrollTop();
+		                     // console.log(scroll_end);
+		                     
+		                     if(scroll_end==0){
+		                          isTop = true;
+		                          nav.removeClass('change_size');
+		                     
+		                     }else if(scroll_end > 0){
+		                          isTop = false;
+		                          nav.addClass('change_size');                                      
+		                     }
+		                })
+					},
+					slipToRegiste:function(){
+						slipRegister.on("click",function(){
+							body.animate({scrollTop: $("#joinUs").offset().top}, 500);
+						})
+					}
+				}
+			})()
+			navTop.changeSize();
+			navTop.slipToRegiste();
+	})
+</script>
+
 
 	<script src="/HyAdmin-master/Public/assets/global/plugins/bootstrap-carousel.min.js" type="text/javascript"></script>
+	<script src="/HyAdmin-master/Public/assets/global/scripts/jquery.validate-1.13.1.js" type="text/javascript"></script>
+	<script src="/HyAdmin-master/Public/assets/global/scripts/wow.min.js" type="text/javascript"></script>
 
 
 	<script type="text/javascript">
 		$(function(){
-			$("#slidershow").carousel({
-				interval:2000
-			});
-
-			$("#slidershow a.left").click(function(){
-				$(".carousel").carousel("prev");
-			});
-
-			$("#slidershow a.right").click(function(){
-				$(".carousel").carousel("next");
-			});
-			changeColor();
-			
-			
-			function changeColor(){
-				var nav = $("#nav_top");
-				var scroll_end = 0;
-				var isTop = true;
-	    
-                // console.log(isTop);
-                nav.mouseover(function(){
-                   if(!isTop){
-                        return;
-                   }
-                    nav.addClass('show_color');
-                })
-
-                nav.mouseout(function(){
-                   if(!isTop){
-                        return;
-                   }
-                    nav.removeClass('show_color');
-                })
-                     
-                $(window).scroll(function(){
-                     scroll_end = $(document).scrollTop();
-                     // console.log(scroll_end);
-                     
-                     if(scroll_end==0){
-                          isTop = true;
-                          nav.removeClass('show_color');
-                     
-                     }else if(scroll_end > 0){
-                          isTop = false;
-                          nav.addClass('show_color');                                      
-                     }
-                })
-			}
-
 			var house = (function(){
 				var houseLi = null;
 
@@ -601,10 +636,13 @@
 								for(var i=0;i<imgNum;i++){
 									
 									var li = "<li class='tool'>\
-											<div class='tool_box'>\
-												<img src='/HyAdmin-master/Public/assets/global/img/index/house/"+imgArr[i].src+"' alt=''>\
-												<div class='img_name'>"+imgArr[i].name+"</div>\
-											</div>\
+												<div class='tool_box'>\
+													<div class='sub_tool_box'>\
+														<img src='/HyAdmin-master/Public/assets/global/img/index/house/"+imgArr[i].src+"' alt=''>\
+														<div class='img_content'><a href='javascript:;'>"+imgArr[i].content+"</a></div>\
+													</div>\
+													<div class='img_name'><span>"+imgArr[i].name+"</span></div>\
+												</div>\
 										  </li>";	
 
 									houseTool.append(li);	
@@ -706,8 +744,99 @@
 			clean.stopSlip();
 			clean.beginSlip();
 			
-			
+			var joinUs = (function(){
+				var input = $(".input_wrapper input");
+				var register = $("#doRegister");
+				var reg = /\S/;/*\S匹配任意不是空白符的字符*/
+				
+				return{
+					inputEvent:function(){
+						input.on("focus",function(){
+				
+							var _self = $(this);
+							var inputVal = _self.val();
+							console.log(inputVal);
+							
+							_self.siblings('.input_label').css({						
+										"top":"-6px",
+										"font-size":"14px"		
+							});
 
+							_self.parent().addClass('input_focus');
+						})
+
+						input.on("blur",function(){
+					
+							var _self = $(this);
+							var inputVal = _self.val();
+							console.log(inputVal);
+
+							if(reg.test(inputVal)){
+								_self.siblings('.input_label').css({
+										"top":"-6px",
+										"font-size":"14px"
+								});
+							}else{
+								_self.siblings('.input_label').css({
+										"top":"16px",
+										"font-size":"20px"
+								});
+							}
+							_self.parent().removeClass('input_focus');
+						})
+					},	
+					doRegister:function(){
+						register.validate({
+					           debug: true,
+					           rules:{
+					              username:{
+					                required:true
+					                
+					              },
+					              password:{
+					                required:true
+					              },
+					              email:{
+					                required:true
+					              }
+					           },
+					            
+					            messages:{
+					              username:{
+					                required:'请输入账号！',
+					                
+					              },
+					              password:{
+					                required:'请输入密码！'
+					              },
+					              email:{
+					                required:'请输入邮箱！'
+					              }
+					         
+					            },
+					           
+					           highlight:function(element,errorClass,validClass){
+					            $(element).addClass(errorClass).removeClass(validClass);
+					            $(element).fadeOut().fadeIn();
+					           },
+					           unhighlight:function(element,errorClass,validClass){
+					              $(element).removeClass(errorClass).addClass(validClass)
+					           },
+					          
+					           submitHandler: function (form){
+					                 form.submit();
+					            } 
+					    });
+					}
+				}
+			})()
+
+			joinUs.inputEvent();
+			joinUs.doRegister();
+	
+			var wow = new WOW();
+
+			wow.init();
 		});
 	</script>
 
